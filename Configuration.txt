@@ -1,0 +1,11 @@
+npm config set proxy http://puneproxy.igate.com:8080
+npm config set https-proxy http://puneproxy.igate.com:8080
+npm install -g typescript
+ng g i package_name/interface_name
+ng g c name/somename  /--for component
+ng g p shared/convertToSpace /--for custom pipe
+//"jquery": "^1.9.1",
+ng g c shared/star --flat /--flat for not creating another folder 
+ng g s services/product --flat
+ng g c welcome/welcome --flat
+ng g c products/productdetails/productdetails --flat
